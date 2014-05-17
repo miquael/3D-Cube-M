@@ -48,7 +48,7 @@ define(function(require, exports, module) {
             size: [size*2, size*2],
             properties: {
                 backgroundColor: colors[i],
-                opacity: 0.4
+                opacity: 0.9
             }
         });
         _surface[i].addClass('backfaceVisibility');
